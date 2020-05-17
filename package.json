@@ -1,0 +1,22 @@
+{
+  "name": "time-zones",
+  "version": "1.0.0",
+  "description": "Simple server that tells time according to a specified time zone",
+  "main": "server.js",
+  "engines": {
+    "node": "^13"
+  },
+  "scripts": {
+    "dev": "PORT=3000 nodemon server.js"
+  },
+  "author": "Andrew Deal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "moment-timezone": "^0.5.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
